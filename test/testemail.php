@@ -42,7 +42,6 @@ try {
 
 	$mail->Send();
 	echo 'Message has been sent.';
-	//测试
 } catch (phpmailerException $e) {
 	echo $e->errorMessage();
 }
